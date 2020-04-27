@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scroll-animate{
+    animation: scroll 2s infinite;
+}
+
+@keyframes scroll{
+    0%{
+        top: 0;
+    }
+    80% {
+        top: 1rem;
+    }
+    100%{
+        top: 0;
+    }
+}
